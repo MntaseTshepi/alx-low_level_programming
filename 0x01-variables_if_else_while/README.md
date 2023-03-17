@@ -5,3 +5,4 @@ Task 3- Writing a C programme that prints out the alphabet in lowercase and then
 Task 4- Writing a C programme that prints out the alphabet except 'e' and 'q'.
 Task 5- Writing a C programme that prints out all single digits of base 10 starting from 0 up to 9.
 Task 6- Writing a C programme that prints out all single digits of base 10 starting for 0 up to 9 using the putchar function.
+Task 7- Writing a C programme that prints out the alphabet in reverse.
