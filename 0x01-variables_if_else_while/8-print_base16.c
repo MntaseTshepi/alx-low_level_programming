@@ -8,8 +8,13 @@
 int main(void)
 {
 	char ch;
+	int i;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
