@@ -3,3 +3,4 @@ Task 1- Writing a C programme that print the last digit of a number comparing if
 Task 2- Writing a C programme that prints out the alphabet in lowercase.
 Task 3- Writing a C programme that prints out the alphabet in lowercase and then uppercase.
 Task 4- Writing a C programme that prints out the alphabet except 'e' and 'q'.
+Task 5- Writing a C programme that prints out all single digits of base 10 starting from 0 up to 9.
