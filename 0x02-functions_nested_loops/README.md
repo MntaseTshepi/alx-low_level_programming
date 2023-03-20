@@ -1,1 +1,2 @@
-Task 0- Writing a program that prints '_putchar' follwed by a new line 
+Task 0- Writing a program that prints out the given word and a new line.
+Task 1- Writing a function that prints out the alphabet and a new line.

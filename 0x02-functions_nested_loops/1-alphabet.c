@@ -1,14 +1,17 @@
 #include "main.h"
 
 /**
- * main - prints out _putchar and a new line
- *
- * Return: Always 0 (Success)
+ * print_alphabet - The function produces the alphabet and prints it out.
  */
-int main(void)
-{
-	print_alphabe();
-	return (0);
-}
 
+void print_alphabet(void)
+{
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		_putchar(ch);
+	}
+	_putchar('\n');
+}
 
