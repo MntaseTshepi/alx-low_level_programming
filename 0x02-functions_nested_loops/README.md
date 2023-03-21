@@ -9,3 +9,4 @@ Task 7- Writing a function that prints the last digit of a number.
 Task 8- Writing a function that prints of the day of Jack Bauer.
 Task 9- Writing a function that prints the 9 times table.
 Task 10- Writing a function that adds tow integers and returns the result.
+Task 11- Writing a function that prints all natural numbers from n to 98.
