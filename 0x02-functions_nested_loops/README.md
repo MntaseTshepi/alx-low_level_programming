@@ -5,3 +5,4 @@ Task 3- Writing a function that checks for a lowercase alphabet.
 Task 4- Writing a function that checks for an alphabet character.
 Task 5- Writing a function that prints the sign of a number.
 Task 6- Writing a function that computes the absolute value of an integer.
+Task 7- Writing a function that prints the last digit of a number.
