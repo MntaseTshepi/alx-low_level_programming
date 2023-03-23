@@ -9,3 +9,4 @@ Task 5 - Writing a function that prints numbers from 0 to 14 ten times.
 Task 6 - Writing a function that draws a straight line in the terminal.
 Task 7 - Writing a function that draws a diagonal line in the terminal.
 Task 8 - Writing a fucntion that prints a square follwed by a new line.
+Task 9 - Writing a program that prints Fizz for multiples of 3, Buzz for multiples of 5 and FizzBuzz for multiples of 3 and 5.
