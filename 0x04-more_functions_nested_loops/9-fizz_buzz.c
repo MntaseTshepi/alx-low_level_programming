@@ -5,9 +5,10 @@
  * For the multiples of three Fizz is printed.
  * For the multiples of five Buzz is printed.
  * For the multiples of three and five FizzBuzz is printed.
+ * Return: Always 0 (Success)
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -31,4 +32,5 @@ void main(void)
 		}
 		printf(" ");
 	}
+	return (0);
 }
