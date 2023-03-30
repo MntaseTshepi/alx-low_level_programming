@@ -7,3 +7,4 @@ Task 3 - Writing a function that compares two strings.
 Task 4 - Writing a fucntion that reverses the content of an array of integers.
 Task 5 - Writing a function that changes all lowercase letters of a string to uppercase.
 Task 6 - Writing a function that capitilizes all words in a string.
+Task 7 - Writing a function that encodes a string into 1337.
