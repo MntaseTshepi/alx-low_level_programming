@@ -5,3 +5,4 @@ Task 1 - Writing a function that concatenates two strings using n number of char
 Task 2 - Writing a fucntion that copies a string, n number of characters are copied from src to dest.
 Task 3 - Writing a function that compares two strings.
 Task 4 - Writing a fucntion that reverses the content of an array of integers.
+Task 5 - Writing a function that changes all lowercase letters of a string to uppercase.
