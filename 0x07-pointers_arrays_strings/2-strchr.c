@@ -5,12 +5,12 @@
  * @s: The string input
  * @c: The character to be found in string s.
  *
- * Return: Always 0 (Success)
+ * Return: Pointer to first occurrence of c in string s or NULL if c not found.
  */
 
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
+	while (*s >= '\0')
 	{
 		if (*s == c)
 		{
@@ -18,5 +18,5 @@ char *_strchr(char *s, char c)
 		}
 		s++;
 	}
-	return (0);
+	return ('\0');
 }
