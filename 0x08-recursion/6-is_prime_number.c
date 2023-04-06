@@ -1,4 +1,5 @@
 #include "main.h"
+#include "5-sqrt_recursion.c"
 
 /**
  * is_prime_number - Checks if the input integer is a prime number
@@ -13,7 +14,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (prime_num_func(n, 2));
+	return (prime_num_func(n, 2 ));
 }
 
 /**
@@ -30,7 +31,7 @@ int prime_num_func(int num, int div)
 	{
 		return (0);
 	}
-	else if (div > _sqrt_recursion(num))
+	if (div > _sqrt_recursion(num))
 	{
 		return (1);
 	}
