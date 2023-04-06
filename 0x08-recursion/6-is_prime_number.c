@@ -26,7 +26,7 @@ int is_prime_number(int n)
 
 int prime_num_func(int num, int div)
 {
-	if ((n % div) == 0)
+	if ((num % div) == 0)
 	{
 		return (0);
 	}
