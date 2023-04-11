@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	}
 	space = (char *)malloc(size * sizeof(char));
 
-	if (space == '\0')
+	if (*space == '\0')
 	{
 		return ('\0');
 	}
