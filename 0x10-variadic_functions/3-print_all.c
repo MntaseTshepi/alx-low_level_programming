@@ -3,19 +3,17 @@
 /**
  * print_all - Function prints anything.
  * @format: List of the types of agruments passed.
- *
  * Return: Void
  */
 
 void print_all(const char * const format, ...)
 {
 	char c;
-	int i;
+	int i, idx = 0;
 	float f;
 	char *s;
-	int idx = 0;
-
 	va_list args;
+
 	va_start(args, format);
 
 	while (format[idx] != '\0')
@@ -37,13 +35,8 @@ void print_all(const char * const format, ...)
 			case 's':
 				s = va_arg(args, char *);
 				if (!s)
-				{
 					printf("(nil)");
-				}
-				else
-				{
-					printf("%s", s);
-				}
+				printf("%s", s);
 				break;
 			default:
 				idx++;
@@ -51,11 +44,8 @@ void print_all(const char * const format, ...)
 		}
 		idx++;
 		if (format[idx] != '\0')
-		{
 			printf(", ");
-		}
 	}
-
 	va_end(args);
 	printf("\n");
 }
