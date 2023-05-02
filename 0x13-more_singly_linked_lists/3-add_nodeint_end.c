@@ -2,7 +2,7 @@
 
 /**
  * add_nodeint_end - Adds a new node at the end of a linked list.
- * @heaf: Node pointer.
+ * @head: Node pointer.
  * @n: Integer input.
  * Return: The address of the new element, or NULL if it failed.
  */
