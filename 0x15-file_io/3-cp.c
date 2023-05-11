@@ -29,11 +29,14 @@ int main(int argc, char *argv[])
 	char buffer[BUFF_SIZE];
 
 	if (argc != 3)
-		file_err("Usage: %s file_from file_to \n", argv[0], 97);
+	{
+		dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
+		exit(97);
+	}
 	fd_from = open(argv[1], O_RDONLY);
 	if (fd_from == -1)
 		file_err("Error: Can't read from file %s\n", argv[1], 98);
-	fd_to = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0644);
+	fd_to = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
 	if (fd_to == -1)
 		file_err("Error: Can't write to %s\n", argv[2], 99);
 	while ((val_read = read(fd_from, buffer, BUFF_SIZE)) > 0)
